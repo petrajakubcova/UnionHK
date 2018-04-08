@@ -25,6 +25,28 @@ legend, .ui-input-text input, .ui-input-search input {
     color: inherit;
     text-shadow: inherit;
 }
+/*Styling of boxes on the fourth page */
+.boxes {
+    width: 45%;
+    float: left;
+    position: relative;
+    text-align: center;
+    color: aqua;
+    border-color: #292d40;
+    border-style: groove;
+    margin: 1.5%;
+}
+.boxes h3 {
+    font-size: 90%;
+}
+.boxes p {
+    color: black;
+    font-size: 80%;
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    right: 5%;
+}
 /* Form labels (overrides font-weight bold in bars, and mini font-size) */
 .ui-mobile label, div.ui-controlgroup-label {
     font-weight: normal;

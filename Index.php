@@ -35,13 +35,14 @@
 	<div data-role="page" id="zero" data-theme="a">
 		<!-- header -->
 		<div data-role="header">
+		    <img src="images/hk-logo.png" alt="the initials H and K which make up the HK logo" style="width: 50px; float: right;">
 			<h1>Union HK</h1>
 		</div>
 		<!-- content -->
 		<div data-role="main" class="ui-content">
-			<h2>This is a landing page</h2>
-			<p>Page content</p>
-			<p><a href="#one" data-transition="slide" class="ui-btn ui-shadow ui-corner-all ui-icon-forward ui-btn-icon-right">NEXT</a>
+			<h2>LønTjek med HK</h2>
+			<img src="images/calculator.jpg" alt="picture of calculator" style="width: 370px;">
+			<p><a href="#one" data-transition="slide" class="ui-btn ui-shadow ui-corner-all">START</a>
 			</p>
 		</div>
 		<!-- footer -->
@@ -59,7 +60,6 @@
 		<!-- content -->
 		<div data-role="main" class="ui-content">
 			<h2>Log In</h2>
-			<p>Fill up with your username and password</p>
 			<!-------------- First page main content from https://www.formget.com/jquery-mobile-form/ ----------->
 			<form method="post" action="#pageone" data-ajax="false">
 				<label for="name">Username : </label>
@@ -336,6 +336,22 @@
 			<h2>HK and Jobpatruljen Information</h2>
 			<p>This is just a place holder for information from Jobpatruljen.dk and HK.dk</p>
 			<p>Maybe we could create a couple of boxes/ use some lorem ipsum to show a possible page design?</p>
+			<div class="boxes" id="first">
+			    <h3>ER DU 13-14 ÅR?</h3>
+			    <p class=" ui-icon-arrow-r ui-btn-icon-right">Read about the topic</p>
+			</div>
+			<div class="boxes" id="second">
+			    <h3>Regler og Love</h3>
+			    <p class=" ui-icon-arrow-r ui-btn-icon-right">Read about the topic</p>
+			</div>
+			<div class="boxes" id="third">
+			    <h3>FYRET</h3>
+			    <p class=" ui-icon-arrow-r ui-btn-icon-right">Read about the topic</p>
+			</div>
+			<div class="boxes" id="fourth">
+			    <h3>FERIEPENGE</h3>
+			    <p class=" ui-icon-arrow-r ui-btn-icon-right">Read about the topic</p>
+			</div>
 		</div>
 		<p><a href="#three" data-direction="reverse" data-transition="slide" class="ui-btn ui-shadow ui-corner-all ui-icon-forward ui-btn-icon-right">BACK</a>
 		</p>
