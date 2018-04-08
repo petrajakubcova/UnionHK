@@ -32,7 +32,7 @@
 
 <body>
 	<!-- Page ZERO -->
-	<div data-role="page" id="zero" data-theme="c">
+	<div data-role="page" id="zero" data-theme="a">
 		<!-- header -->
 		<div data-role="header">
 			<h1>Union HK</h1>
