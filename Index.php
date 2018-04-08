@@ -7,8 +7,13 @@
 	<!-- How the browser should display the page zoom level and dimensions -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<!-- Links/Codes from jquerymobile.com -->
-	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css"/>
+	<!-- inserting custom theme from http://themeroller.jquerymobile.com/ -->
+	<link rel="stylesheet" href="themes/hk-union.css" type="text/css"/>
+	<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" type="text/css"/>
+
+
+	<!-- Links/Codes from jquerymobile.com (updated after creating a custom theme) -->
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css"/>
 	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
 	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 
@@ -27,17 +32,18 @@
 
 <body>
 	<!-- Page ZERO -->
-	<div data-role="page" id="zero">
+	<div data-role="page" id="zero" data-theme="c">
 		<!-- header -->
 		<div data-role="header">
 			<h1>Union HK</h1>
 		</div>
 		<!-- content -->
-		<div data-role="main" class="ui-content"></div>
-		<h2>This is a landing page</h2>
-		<p>Page content</p>
-		<p><a href="#one" data-transition="slide" class="ui-btn ui-shadow ui-corner-all ui-icon-forward ui-btn-icon-right">NEXT</a>
-		</p>
+		<div data-role="main" class="ui-content">
+			<h2>This is a landing page</h2>
+			<p>Page content</p>
+			<p><a href="#one" data-transition="slide" class="ui-btn ui-shadow ui-corner-all ui-icon-forward ui-btn-icon-right">NEXT</a>
+			</p>
+		</div>
 		<!-- footer -->
 		<div data-role="footer">
 			<h4>Page Footer</h4>
