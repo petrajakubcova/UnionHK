@@ -53,6 +53,7 @@
 	<div data-role="page" id="one">
 		<!-- header -->
 		<div data-role="header">
+			<img src="images/hk-logo.png" alt="the initials H and K which make up the HK logo" style="width: 50px; float: right;">
 			<h1>Union HK</h1>
 		</div>
 		<!-- content -->
