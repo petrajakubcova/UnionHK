@@ -335,22 +335,21 @@
 		<div data-role="main" class="ui-content">
 			<h2>HK and Jobpatruljen Information</h2>
 			<p>This is just a place holder for information from Jobpatruljen.dk and HK.dk</p>
-			<p>Maybe we could create a couple of boxes/ use some lorem ipsum to show a possible page design?</p>
 			<div class="boxes" id="first">
 			    <h3>Er du 13-14 år</h3>
 			    <p class=" ui-icon-arrow-r ui-btn-icon-right">Read more</p>
 			</div>
 			<div class="boxes" id="second">
 			    <h3>Regler og Love</h3>
-			    <p class=" ui-icon-arrow-r ui-btn-icon-right">Read more</p>
+			    <p class="ui-icon-arrow-r ui-btn-icon-right">Read more</p>
 			</div>
 			<div class="boxes" id="third">
-			    <h3>Fyret</h3>
-			    <p class=" ui-icon-arrow-r ui-btn-icon-right">Read more</p>
+			    <h3>Gratis kurser</h3>
+			    <p class="ui-icon-arrow-r ui-btn-icon-right">Read more</p>
 			</div>
 			<div class="boxes" id="fourth">
 			    <h3>Feriepenge</h3>
-			    <p class=" ui-icon-arrow-r ui-btn-icon-right">Read more</p>
+			    <p class="ui-icon-arrow-r ui-btn-icon-right">Read more</p>
 			</div>
 		</div>
 		<p><a href="#three" data-direction="reverse" data-transition="slide" class="ui-btn ui-shadow ui-corner-all ui-icon-forward ui-btn-icon-right">BACK</a>

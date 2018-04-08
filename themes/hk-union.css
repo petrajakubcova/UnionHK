@@ -26,6 +26,10 @@ legend, .ui-input-text input, .ui-input-search input {
     text-shadow: inherit;
 }
 /*Styling of boxes on the fourth page */
+h2 {
+    position: relative;
+    text-align: center;
+}
 .boxes {
     background-color: #edece6;
     width: 45%;
@@ -33,9 +37,8 @@ legend, .ui-input-text input, .ui-input-search input {
     float: left;
     position: relative;
     text-align: center;
-    color: aqua;
     border-color: #292d40;
-    border-style: groove;
+    border-style: solid;
     margin: 1.5%;
 }
 .boxes h3 {
