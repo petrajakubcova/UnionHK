@@ -27,8 +27,9 @@ legend, .ui-input-text input, .ui-input-search input {
 }
 /*Styling of boxes on the fourth page */
 .boxes {
+    background-color: #edece6;
     width: 45%;
-    height: 100px;
+    height: 80px;
     float: left;
     position: relative;
     text-align: center;
@@ -39,6 +40,7 @@ legend, .ui-input-text input, .ui-input-search input {
 }
 .boxes h3 {
     font-size: 90%;
+    color: #292d40;
 }
 .boxes p {
     color: black;
@@ -47,6 +49,7 @@ legend, .ui-input-text input, .ui-input-search input {
     top: 25%;
     left: 5%;
     right: 5%;
+    padding-top: 7%;
 }
 /* Form labels (overrides font-weight bold in bars, and mini font-size) */
 .ui-mobile label, div.ui-controlgroup-label {
