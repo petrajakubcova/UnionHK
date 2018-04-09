@@ -298,6 +298,9 @@ legend, .ui-input-text input, .ui-input-search input {
 .signuplink {
     padding-left: 40%;
 }
+.loginbox {
+    padding-top: 8%;
+}
 h2 {
     position: relative;
     text-align: center;
@@ -334,6 +337,7 @@ a#sign-up {
 	background-color: #292d40;
 	color: #ffffff;
 }
+
 a#footer-link {
 	font-weight: normal;
     color: #1f9de0;

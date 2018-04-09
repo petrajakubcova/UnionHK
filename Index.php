@@ -44,12 +44,13 @@
 			<!-- Picture -->
 			<img src="images/girl.jpg" alt="picture of calculator" style="width: 100%;">
 			<!-------------- First page main content from https://www.formget.com/jquery-mobile-form/ ----------->
-			<form method="post" action="#pageone" data-ajax="false">
+			<div class="loginbox"><form method="post" action="#pageone" data-ajax="false">
 				<label for="name">Username : </label>
 				<input type="text" name="name" id="name" placeholder="Name">
 				<label for="password">Password: </label>
 				<input type="password" id="password" name="password" placeholder="Password"/>
 			</form>
+			</div>
 			<p><a href="#four" data-transition="slide" id="log-in" class="ui-btn ui-shadow ui-corner-all">Log In</a>
 			</p>
 			<p><a href="#two" data-transition="slide" id="sign-up" class="ui-btn ui-shadow ui-corner-all">Sign Up</a>
@@ -379,19 +380,19 @@
 		<div data-role="main" class="ui-content">
 			<h2>HK and Jobpatruljen Information</h2>
 			<p>This is just a place holder for information from Jobpatruljen.dk and HK.dk</p>
-			<div class="boxes" id="first">
+			<div class="boxes" id="firstbox">
 				<h3>Er du 13-14 år</h3>
 				<p class=" ui-icon-arrow-r ui-btn-icon-right">Read more</p>
 			</div>
-			<div class="boxes" id="second">
+			<div class="boxes" id="secondbox">
 				<h3>Regler og Love</h3>
 				<p class="ui-icon-arrow-r ui-btn-icon-right">Read more</p>
 			</div>
-			<div class="boxes" id="third">
+			<div class="boxes" id="thirdbox">
 				<h3>Gratis kurser</h3>
 				<p class="ui-icon-arrow-r ui-btn-icon-right">Read more</p>
 			</div>
-			<div class="boxes" id="fourth">
+			<div class="boxes" id="fourthbox">
 				<h3>Feriepenge</h3>
 				<p class="ui-icon-arrow-r ui-btn-icon-right">Read more</p>
 			</div>
