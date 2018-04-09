@@ -41,7 +41,7 @@
 		<div data-role="main" class="ui-content">
 			<h2>Log In</h2>
 			<!-- Picture -->
-			<img src="images/calculator.jpg" alt="picture of calculator" style="width: 370px;">
+			<img src="images/girl.jpg" alt="picture of calculator" style="width: 100%;">
 			<!-------------- First page main content from https://www.formget.com/jquery-mobile-form/ ----------->
 			<form method="post" action="#pageone" data-ajax="false">
 				<label for="name">Username : </label>
