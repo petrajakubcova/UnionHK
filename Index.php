@@ -51,8 +51,9 @@
 			</form>
 			<p><a href="#four" data-transition="slide" id="log-in" class="ui-btn ui-shadow ui-corner-all">Log In</a>
 			</p>
-			<p><a href="#two" id="sign-up" class="ui-btn ui-shadow ui-corner-all">Sign Up</a></p>
-		    </div>
+			<p><a href="#two" id="sign-up" class="ui-btn ui-shadow ui-corner-all">Sign Up</a>
+			</p>
+		</div>
 
 		<!-- footer -->
 		<div data-role="footer">
@@ -70,7 +71,7 @@
 		</div>
 		<!-- content -->
 		<div data-role="main" class="ui-content">
-		<form>
+			<form>
 				<h2>Create a new account</h2>
 				<fieldset data-role="controlgroup">
 					<label for="name">Username : <span>*</span></label>
@@ -225,7 +226,7 @@
 					</fieldset>
 
 					<p><a href="#three" data-transition="slide" id="sign-up2" class="ui-btn ui-shadow ui-corner-all ui-icon-carat-r ui-btn-icon-right">Sign Up</a>
-			        </p>
+					</p>
 				</fieldset>
 			</form>
 		</div>
@@ -245,7 +246,7 @@
 		</div>
 		<!-- content -->
 		<div data-role="main" class="ui-content">
-		<h2>Pay Slip Information</h2>
+			<h2>Pay Slip Information</h2>
 			<div data-role="fieldcontain">
 				<div>
 					<!-- do we need to change any of these input types to numbers?-->
@@ -287,7 +288,7 @@
 			<h4>Page Footer</h4>
 		</div>
 	</div>
-	
+
 	<!-- Page FOUR -->
 	<div data-role="page" id="four">
 		<!-- header -->
@@ -310,7 +311,7 @@
 					<label for="name">Supplementary hours:</label>
 					<!-- changed input type to number for hours calculator-->
 					<input type="number" name="name" id="name" value=""/>
-					</div>
+				</div>
 			</div>
 			<p><a href="#five" data-transition="slide" id="calculate" class="ui-btn ui-shadow ui-corner-all ui-icon-carat-r ui-btn-icon-right">CALCULATE</a>
 			</p>
@@ -322,7 +323,7 @@
 			<h4><a href="#five" id="footer-link">More information from HK</a></h4>
 		</div>
 	</div>
-    
+
 	<!-- Page FIVE -->
 	<div data-role="page" id="five">
 		<!-- header -->
@@ -345,7 +346,7 @@
 					<label for="name">Supplementary hours:</label>
 					<!-- changed input type to number for hours calculator-->
 					<input type="number" name="name" id="name" value=""/>
-					</div>
+				</div>
 			</div>
 			<div data-role="fieldcontain">
 				<div>
@@ -355,7 +356,7 @@
 					<input type="text" name="name" id="name" value=""/>
 				</div>
 			</div>
-			
+
 			<p><a href="#six" data-transition="slide" class="ui-btn ui-shadow ui-corner-all ui-icon-carat-r ui-btn-icon-right">NEXT</a>
 			</p>
 			<p><a href="#four" data-direction="reverse" data-transition="slide" class="ui-btn ui-shadow ui-corner-all ui-icon-carat-l ui-btn-icon-right">BACK</a>
@@ -378,20 +379,20 @@
 			<h2>HK and Jobpatruljen Information</h2>
 			<p>This is just a place holder for information from Jobpatruljen.dk and HK.dk</p>
 			<div class="boxes" id="first">
-			    <h3>Er du 13-14 år</h3>
-			    <p class=" ui-icon-arrow-r ui-btn-icon-right">Read more</p>
+				<h3>Er du 13-14 år</h3>
+				<p class=" ui-icon-arrow-r ui-btn-icon-right">Read more</p>
 			</div>
 			<div class="boxes" id="second">
-			    <h3>Regler og Love</h3>
-			    <p class="ui-icon-arrow-r ui-btn-icon-right">Read more</p>
+				<h3>Regler og Love</h3>
+				<p class="ui-icon-arrow-r ui-btn-icon-right">Read more</p>
 			</div>
 			<div class="boxes" id="third">
-			    <h3>Gratis kurser</h3>
-			    <p class="ui-icon-arrow-r ui-btn-icon-right">Read more</p>
+				<h3>Gratis kurser</h3>
+				<p class="ui-icon-arrow-r ui-btn-icon-right">Read more</p>
 			</div>
 			<div class="boxes" id="fourth">
-			    <h3>Feriepenge</h3>
-			    <p class="ui-icon-arrow-r ui-btn-icon-right">Read more</p>
+				<h3>Feriepenge</h3>
+				<p class="ui-icon-arrow-r ui-btn-icon-right">Read more</p>
 			</div>
 		</div>
 		<p><a href="#five" data-direction="reverse" data-transition="slide" class="ui-btn ui-shadow ui-corner-all ui-icon-carat-l ui-btn-icon-right">BACK</a>
@@ -403,4 +404,5 @@
 	</div>
 
 </body>
+
 </html>

@@ -253,10 +253,10 @@ legend, .ui-input-text input, .ui-input-search input {
 .ui-page-theme-a .ui-checkbox-on:after, html .ui-bar-a .ui-checkbox-on:after, html .ui-body-a .ui-checkbox-on:after, html body .ui-group-theme-a .ui-checkbox-on:after, .ui-btn.ui-checkbox-on.ui-btn-a:after, /* Active flipswitch background */
 .ui-page-theme-a .ui-flipswitch-active, html .ui-bar-a .ui-flipswitch-active, html .ui-body-a .ui-flipswitch-active, html body .ui-group-theme-a .ui-flipswitch-active, html body .ui-flipswitch.ui-bar-a.ui-flipswitch-active, /* Active slider track */
 .ui-page-theme-a .ui-slider-track .ui-btn-active, html .ui-bar-a .ui-slider-track .ui-btn-active, html .ui-body-a .ui-slider-track .ui-btn-active, html body .ui-group-theme-a .ui-slider-track .ui-btn-active, html body div.ui-slider-track.ui-body-a .ui-btn-active {
-    background-color: #9beddb /*{a-active-background-color}*/;
-    border-color: #48d5b6 /*{a-active-border}*/;
+    background-color: #009de1 /*{a-active-background-color}*/;
+    border-color: #f2f2f2 /*{a-active-border}*/;
     color: #ffffff /*{a-active-color}*/;
-    text-shadow: 0 /*{a-active-shadow-x}*/ 1px /*{a-active-shadow-y}*/ 0 /*{a-active-shadow-radius}*/ #333333 /*{a-active-shadow-color}*/;
+    text-shadow: 0 /*{a-active-shadow-x}*/ 0 /*{a-active-shadow-y}*/ 0 /*{a-active-shadow-radius}*/ #333333 /*{a-active-shadow-color}*/;
 }
 /* Active radio button icon */
 .ui-page-theme-a .ui-radio-on:after, html .ui-bar-a .ui-radio-on:after, html .ui-body-a .ui-radio-on:after, html body .ui-group-theme-a .ui-radio-on:after, .ui-btn.ui-radio-on.ui-btn-a:after {
@@ -265,9 +265,9 @@ legend, .ui-input-text input, .ui-input-search input {
 /* Focus */
 .ui-page-theme-a .ui-btn:focus, html .ui-bar-a .ui-btn:focus, html .ui-body-a .ui-btn:focus, html body .ui-group-theme-a .ui-btn:focus, html head + body .ui-btn.ui-btn-a:focus, /* Focus buttons and text inputs with div wrap */
 .ui-page-theme-a .ui-focus, html .ui-bar-a .ui-focus, html .ui-body-a .ui-focus, html body .ui-group-theme-a .ui-focus, html head + body .ui-btn-a.ui-focus, html head + body .ui-body-a.ui-focus {
-    -webkit-box-shadow: 0 0 12px #9beddb /*{a-active-background-color}*/;
-    -moz-box-shadow: 0 0 12px #9beddb /*{a-active-background-color}*/;
-    box-shadow: 0 0 12px #9beddb /*{a-active-background-color}*/;
+    -webkit-box-shadow: 0 0 12px #009de1 /*{a-active-background-color}*/;
+    -moz-box-shadow: 0 0 12px #009de1 /*{a-active-background-color}*/;
+    box-shadow: 0 0 12px #009de1 /*{a-active-background-color}*/;
 }
 /* Structure */
 /* Disabled
