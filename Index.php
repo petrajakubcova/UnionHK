@@ -35,14 +35,15 @@
 	<div data-role="page" id="one">
 		<!-- header -->
 		<div data-role="header">
-			<img src="images/hk-logo.png" alt="the initials H and K which make up the HK logo" style="width: 50px; float: right;">
-			<h1>Union HK</h1>
+			<img src="images/logo.png" alt="The lon tjek logo as text with the letter HK as part of it" id="hk-logo">
 		</div>
 		<!-- content -->
 		<div data-role="main" class="ui-content">
 			<h2>Log In</h2>
 			<!-- Picture -->
-			<img src="images/girl.jpg" alt="picture of calculator" style="width: 100%;">
+			<div>
+			<img src="images/cover-photo.jpg" alt="Picture of a park" id="cover-photo">
+			</div>
 			<!-------------- First page main content from https://www.formget.com/jquery-mobile-form/ ----------->
 			<div class="loginbox"><form method="post" action="#pageone" data-ajax="false">
 				<label for="name">Username : </label>
@@ -68,8 +69,7 @@
 	<div data-role="page" id="two">
 		<!-- header -->
 		<div data-role="header">
-			<img src="images/hk-logo.png" alt="the initials H and K which make up the HK logo" style="width: 50px; float: right;">
-			<h1>Union HK</h1>
+			<img src="images/logo.png" alt="The lon tjek logo as text with the letter HK as part of it" id="hk-logo">
 		</div>
 		<!-- content -->
 		<div data-role="main" class="ui-content">
@@ -243,8 +243,7 @@
 	<div data-role="page" id="three">
 		<!-- header -->
 		<div data-role="header">
-			<img src="images/hk-logo.png" alt="the initials H and K which make up the HK logo" style="width: 50px; float: right;">
-			<h1>Union HK</h1>
+			<img src="images/logo.png" alt="The lon tjek logo as text with the letter HK as part of it" id="hk-logo">
 		</div>
 		<!-- content -->
 		<div data-role="main" class="ui-content">
@@ -295,8 +294,7 @@
 	<div data-role="page" id="four">
 		<!-- header -->
 		<div data-role="header">
-			<img src="images/hk-logo.png" alt="the initials H and K which make up the HK logo" style="width: 50px; float: right;">
-			<h1>Union HK</h1>
+			<img src="images/logo.png" alt="The lon tjek logo as text with the letter HK as part of it" id="hk-logo">
 		</div>
 		<!-- content -->
 		<div data-role="main" class="ui-content">
@@ -330,8 +328,7 @@
 	<div data-role="page" id="five">
 		<!-- header -->
 		<div data-role="header">
-			<img src="images/hk-logo.png" alt="the initials H and K which make up the HK logo" style="width: 50px; float: right;">
-			<h1>Union HK</h1>
+			<img src="images/logo.png" alt="The lon tjek logo as text with the letter HK as part of it" id="hk-logo">
 		</div>
 		<!-- content -->
 		<div data-role="main" class="ui-content">
@@ -373,8 +370,7 @@
 	<div data-role="page" id="six">
 		<!-- header -->
 		<div data-role="header">
-			<img src="images/hk-logo.png" alt="the initials H and K which make up the HK logo" style="width: 50px; float: right;">
-			<h1>Union HK</h1>
+			<img src="images/logo.png" alt="The lon tjek logo as text with the letter HK as part of it" id="hk-logo">
 		</div>
 		<!-- content -->
 		<div data-role="main" class="ui-content">
