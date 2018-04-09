@@ -57,7 +57,7 @@
 
 		<!-- footer -->
 		<div data-role="footer">
-			<h4><a href="#five" id="footer-link">More information from HK</a></h4>
+			<h4><a href="#six" id="footer-link">More information from HK</a></h4>
 		</div>
 	</div>
 	<!-- end of Page ONE-->
@@ -232,7 +232,7 @@
 		</div>
 		<!-- footer -->
 		<div data-role="footer">
-			<h4><a href="#five" id="footer-link">More information from HK</a></h4>
+			<h4><a href="#six" id="footer-link">More information from HK</a></h4>
 		</div>
 	</div>
 
@@ -285,7 +285,7 @@
 		</div>
 		<!-- footer -->
 		<div data-role="footer">
-			<h4>Page Footer</h4>
+			<h4><a href="#six" id="footer-link">More information from HK</a></h4>
 		</div>
 	</div>
 
@@ -320,7 +320,7 @@
 		</div>
 		<!-- footer -->
 		<div data-role="footer">
-			<h4><a href="#five" id="footer-link">More information from HK</a></h4>
+			<h4><a href="#six" id="footer-link">More information from HK</a></h4>
 		</div>
 	</div>
 
@@ -364,7 +364,7 @@
 		</div>
 		<!-- footer -->
 		<div data-role="footer">
-			<h4><a href="#five" id="footer-link">More information from HK</a></h4>
+			<h4><a href="#six" id="footer-link">More information from HK</a></h4>
 		</div>
 	</div>
 	<!-- Page SIX -->
@@ -398,8 +398,8 @@
 		<p><a href="#five" data-direction="reverse" data-transition="slide" class="ui-btn ui-shadow ui-corner-all ui-icon-carat-l ui-btn-icon-right">BACK</a>
 		</p>
 		<!-- footer -->
-		<div data-role="footer">
-			<h4><a href="#five" id="footer-link">More information from HK</a></h4>
+		 <div data-role="footer">
+			<h4><a href="#six" id="footer-link">More information from HK</a></h4>
 		</div>
 	</div>
 
