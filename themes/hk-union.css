@@ -356,3 +356,6 @@ img#cover-photo {
 	max-width: 90%;
 	padding-left: 5%;
 }
+a#hk-web, a#job-p {
+	text-decoration: none;
+}

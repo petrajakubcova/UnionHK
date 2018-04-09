@@ -375,7 +375,7 @@
 		<!-- content -->
 		<div data-role="main" class="ui-content">
 			<h2>HK and Jobpatruljen Information</h2>
-			<p>This is just a place holder for information from Jobpatruljen.dk and HK.dk</p>
+			<p> For more information, visit <a href="www.hk.dk" id="hk-web">HK's website</a> or <a href="www.jobpatruljen.dk" id="job-p">Jobpatruljen</a>.</p>
 			<div class="boxes" id="firstbox">
 				<h3>Er du 13-14 år</h3>
 				<p class=" ui-icon-arrow-r ui-btn-icon-right">Read more</p>
