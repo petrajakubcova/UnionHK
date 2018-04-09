@@ -67,7 +67,7 @@
 				<label for="password">Password: </label>
 				<input type="password" id="password" name="password" placeholder="Password"/>
 			</form>
-			<p><a href="#three" data-transition="slide" class="ui-btn ui-shadow ui-corner-all ui-icon-forward ui-btn-icon-right">Log In</a>
+			<p><a href="#three" data-transition="slide" id="log-in" class="ui-btn ui-shadow ui-corner-all ui-icon-forward ui-btn-icon-right">Log In</a>
 			</p>
 			<form>
 				<h2>Create a new account</h2>
@@ -83,7 +83,7 @@
 
 
 					<!-- Date of birth -->
-					<div data-role="fieldcontain">
+					<div class="ui-field-contain">
 						<fieldset data-role="controlgroup" data-type="horizontal">
 							<legend>Date of Birth:</legend><br>
 
@@ -223,7 +223,7 @@
 						<input type="radio" name="gender" id="female" value="female">
 					</fieldset>
 
-					<p><a href="#two" data-transition="slide" class="ui-btn ui-shadow ui-corner-all ui-icon-forward ui-btn-icon-right">Sign Up</a>
+					<p><a href="#two" data-transition="slide" id="sign-up" class="ui-btn ui-shadow ui-corner-all ui-icon-forward ui-btn-icon-right">Sign Up</a>
 					</p>
 				</fieldset>
 			</form>
@@ -313,7 +313,7 @@
 					<input type="number" name="name" id="name" value=""/>
 				</div>
 			</div>
-			<p><a href="#four" data-transition="slide" class="ui-btn ui-shadow ui-corner-all ui-icon-forward ui-btn-icon-right">NEXT</a>
+			<p><a href="#four" class="ui-btn ui-shadow ui-corner-all ui-icon-forward ui-btn-icon-right">CALCULATE</a>
 			</p>
 			<p><a href="#two" data-direction="reverse" data-transition="slide" class="ui-btn ui-shadow ui-corner-all ui-icon-forward ui-btn-icon-right">BACK</a>
 			</p>
@@ -323,9 +323,53 @@
 			<h4>Page Footer</h4>
 		</div>
 	</div>
-
+	
 	<!-- Page FOUR -->
 	<div data-role="page" id="four">
+		<!-- header -->
+		<div data-role="header">
+			<img src="images/hk-logo.png" alt="the initials H and K which make up the HK logo" style="width: 50px; float: right;">
+			<h1>Union HK</h1>
+		</div>
+		<!-- content -->
+		<div data-role="main" class="ui-content">
+			<h2>Salary Calculator</h2>
+			<div data-role="fieldcontain">
+				<div>
+					<label for="name">Job Role:</label>
+					<input type="text" name="name" id="name" value=""/>
+					<label for="name">Hourly wage:</label>
+					<input type="text" name="name" id="name" value=""/>
+					<label for="name">Total hours:</label>
+					<!-- changed input type to number for hours calculator-->
+					<input type="number" name="name" id="name" value=""/>
+					<label for="name">Supplementary hours:</label>
+					<!-- changed input type to number for hours calculator-->
+					<input type="number" name="name" id="name" value=""/>
+					</div>
+			</div>
+			<div data-role="fieldcontain">
+				<div>
+					<label for="name">Salary before tax:</label>
+					<input type="text" name="name" id="name" value=""/>
+					<label for="name">Salary after tax:</label>
+					<input type="text" name="name" id="name" value=""/>
+				</div>
+			</div>
+			
+			<p><a href="#five" data-transition="slide" class="ui-btn ui-shadow ui-corner-all ui-icon-forward ui-btn-icon-right">NEXT</a>
+			</p>
+			<p><a href="#three" data-direction="reverse" data-transition="slide" class="ui-btn ui-shadow ui-corner-all ui-icon-forward ui-btn-icon-right">BACK</a>
+			</p>
+		</div>
+		<!-- footer -->
+		<div data-role="footer">
+			<h4>Page Footer</h4>
+		</div>
+	</div>
+
+	<!-- Page FIVE -->
+	<div data-role="page" id="five">
 		<!-- header -->
 		<div data-role="header">
 			<img src="images/hk-logo.png" alt="the initials H and K which make up the HK logo" style="width: 50px; float: right;">
@@ -352,7 +396,7 @@
 			    <p class="ui-icon-arrow-r ui-btn-icon-right">Read more</p>
 			</div>
 		</div>
-		<p><a href="#three" data-direction="reverse" data-transition="slide" class="ui-btn ui-shadow ui-corner-all ui-icon-forward ui-btn-icon-right">BACK</a>
+		<p><a href="#four" data-direction="reverse" data-transition="slide" class="ui-btn ui-shadow ui-corner-all ui-icon-forward ui-btn-icon-right">BACK</a>
 		</p>
 		<!-- footer -->
 		<div data-role="footer">
