@@ -234,17 +234,17 @@ legend, .ui-input-text input, .ui-input-search input {
     color: #7e858a /*{a-bup-color}*/;
     text-shadow: 0 /*{a-bup-shadow-x}*/ 0 /*{a-bup-shadow-y}*/ 0 /*{a-bup-shadow-radius}*/ #727272 /*{a-bup-shadow-color}*/;
 }
-/* Button hover */
+/* Button hover */ 
 .ui-page-theme-a .ui-btn:hover, html .ui-bar-a .ui-btn:hover, html .ui-body-a .ui-btn:hover, html body .ui-group-theme-a .ui-btn:hover, html head + body .ui-btn.ui-btn-a:hover {
-    background-color: #5daec3 /*{a-bhover-background-color}*/;
-    border-color: #dddddd /*{a-bhover-border}*/;
+    background-color: #95d2ec /*{a-bhover-background-color}*/;
+    border-color: #01A9F2 /*{a-bhover-border}*/;
     color: f9f9f9 /*{a-bhover-color}*/;
     text-shadow: 0 /*{a-bhover-shadow-x}*/ 1px /*{a-bhover-shadow-y}*/ 0 /*{a-bhover-shadow-radius}*/ #727272 /*{a-bhover-shadow-color}*/;
 }
 /* Button down */
 .ui-page-theme-a .ui-btn:active, html .ui-bar-a .ui-btn:active, html .ui-body-a .ui-btn:active, html body .ui-group-theme-a .ui-btn:active, html head + body .ui-btn.ui-btn-a:active {
-    background-color: #333333 /*{a-bdown-background-color}*/;
-    border-color: #dddddd /*{a-bdown-border}*/;
+    background-color: #95d2ec /*{a-bdown-background-color}*/;
+    border-color: #01A9F2 /*{a-bdown-border}*/;
     color: #f9f9f9 /*{a-bdown-color}*/;
     text-shadow: 0 /*{a-bdown-shadow-x}*/ 1px /*{a-bdown-shadow-y}*/ 0 /*{a-bdown-shadow-radius}*/ #000000 /*{a-bdown-shadow-color}*/;
 }
@@ -260,7 +260,7 @@ legend, .ui-input-text input, .ui-input-search input {
 }
 /* Active radio button icon */
 .ui-page-theme-a .ui-radio-on:after, html .ui-bar-a .ui-radio-on:after, html .ui-body-a .ui-radio-on:after, html body .ui-group-theme-a .ui-radio-on:after, .ui-btn.ui-radio-on.ui-btn-a:after {
-    border-color: #9beddb /*{a-active-background-color}*/;
+    border-color: #009de1 /*{a-active-background-color}*/;
 }
 /* Focus */
 .ui-page-theme-a .ui-btn:focus, html .ui-bar-a .ui-btn:focus, html .ui-body-a .ui-btn:focus, html body .ui-group-theme-a .ui-btn:focus, html head + body .ui-btn.ui-btn-a:focus, /* Focus buttons and text inputs with div wrap */
@@ -326,7 +326,7 @@ h2 {
     right: 5%;
     padding-top: 7%;
 }
-a#log-in {
+a#log-in, a#sign-up2, a#calculate {
 	background-color: #1f9de0;
 	color: #ffffff;
 }
@@ -339,4 +339,7 @@ a#footer-link {
     color: #1f9de0;
     text-shadow: none;
     text-decoration: none;
+}
+a .back-button {
+	background-color: #c9c7c7;
 }

@@ -224,7 +224,7 @@
 						<input type="radio" name="gender" id="female" value="female">
 					</fieldset>
 
-					<p><a href="#three" data-transition="slide" class="ui-btn ui-shadow ui-corner-all ui-icon-forward ui-btn-icon-right">NEXT</a>
+					<p><a href="#three" data-transition="slide" id="sign-up2" class="ui-btn ui-shadow ui-corner-all ui-icon-carat-r ui-btn-icon-right">Sign Up</a>
 			        </p>
 				</fieldset>
 			</form>
@@ -279,7 +279,7 @@
 			</div>
 			<p><a href="#four" data-transition="slide" class="ui-btn ui-shadow ui-corner-all ui-icon-carat-r ui-btn-icon-right">NEXT</a>
 			</p>
-			<p><a href="#two" data-direction="reverse" data-transition="slide" class="ui-btn ui-shadow ui-corner-all ui-icon-carat-l ui-btn-icon-right">BACK</a>
+			<p><a href="#two" data-direction="reverse" data-transition="slide" class="ui-btn ui-shadow ui-corner-all ui-icon-carat-l ui-btn-icon-right back-button">BACK</a>
 			</p>
 		</div>
 		<!-- footer -->
