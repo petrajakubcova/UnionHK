@@ -331,3 +331,9 @@ a#sign-up {
 	background-color: #292d40;
 	color: #ffffff;
 }
+a#footer-link {
+	font-weight: normal;
+    color: #1f9de0;
+    text-shadow: none;
+    text-decoration: none;
+}

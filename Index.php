@@ -231,7 +231,7 @@
 
 		<!-- footer -->
 		<div data-role="footer">
-			<h4>Page Footer</h4>
+			<h4><a href="#five" id="footer-link">More information from HK</a></h4>
 		</div>
 	</div>
 	<!-- end of Page ONE-->
