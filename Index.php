@@ -35,7 +35,6 @@
 	<div data-role="page" id="one">
 		<!-- header -->
 		<div data-role="header">
-			<img src="images/hk-logo.png" alt="the initials H and K which make up the HK logo" style="width: 50px; float: right;">
 			<h1>Union HK</h1>
 		</div>
 		<!-- content -->
@@ -50,11 +49,9 @@
 				<label for="password">Password: </label>
 				<input type="password" id="password" name="password" placeholder="Password"/>
 			</form>
-			<p><a href="#four" data-transition="slide" id="log-in" class="ui-btn ui-shadow ui-corner-all ui-icon-forward ui-btn-icon-right">Log In</a>
+			<p><a href="#four" data-transition="slide" id="log-in" class="ui-btn ui-shadow ui-corner-all">Log In</a>
 			</p>
-			<div class="signuplink">
-			<p><a href="#two">Sign Up</a></p>
-            </div>
+			<p><a href="#two" id="sign-up" class="ui-btn ui-shadow ui-corner-all">Sign Up</a></p>
 		    </div>
 
 		<!-- footer -->
@@ -280,9 +277,9 @@
 					<input type="text" name="name" id="name" value=""/>
 				</div>
 			</div>
-			<p><a href="#four" data-transition="slide" class="ui-btn ui-shadow ui-corner-all ui-icon-forward ui-btn-icon-right">NEXT</a>
+			<p><a href="#four" data-transition="slide" class="ui-btn ui-shadow ui-corner-all ui-icon-carat-r ui-btn-icon-right">NEXT</a>
 			</p>
-			<p><a href="#two" data-direction="reverse" data-transition="slide" class="ui-btn ui-shadow ui-corner-all ui-icon-forward ui-btn-icon-right">BACK</a>
+			<p><a href="#two" data-direction="reverse" data-transition="slide" class="ui-btn ui-shadow ui-corner-all ui-icon-carat-l ui-btn-icon-right">BACK</a>
 			</p>
 		</div>
 		<!-- footer -->
@@ -315,18 +312,9 @@
 					<input type="number" name="name" id="name" value=""/>
 					</div>
 			</div>
-			<div data-role="fieldcontain">
-				<div>
-					<label for="name">Salary before tax:</label>
-					<input type="text" name="name" id="name" value=""/>
-					<label for="name">Salary after tax:</label>
-					<input type="text" name="name" id="name" value=""/>
-				</div>
-			</div>
-			
-			<p><a href="#five" data-transition="slide" class="ui-btn ui-shadow ui-corner-all ui-icon-forward ui-btn-icon-right">NEXT</a>
+			<p><a href="#five" data-transition="slide" id="calculate" class="ui-btn ui-shadow ui-corner-all ui-icon-carat-r ui-btn-icon-right">CALCULATE</a>
 			</p>
-			<p><a href="#three" data-direction="reverse" data-transition="slide" class="ui-btn ui-shadow ui-corner-all ui-icon-forward ui-btn-icon-right">BACK</a>
+			<p><a href="#three" data-direction="reverse" data-transition="slide" class="ui-btn ui-shadow ui-corner-all ui-icon-carat-l ui-btn-icon-right">BACK</a>
 			</p>
 		</div>
 		<!-- footer -->
@@ -368,9 +356,9 @@
 				</div>
 			</div>
 			
-			<p><a href="#six" data-transition="slide" class="ui-btn ui-shadow ui-corner-all ui-icon-forward ui-btn-icon-right">NEXT</a>
+			<p><a href="#six" data-transition="slide" class="ui-btn ui-shadow ui-corner-all ui-icon-carat-r ui-btn-icon-right">NEXT</a>
 			</p>
-			<p><a href="#four" data-direction="reverse" data-transition="slide" class="ui-btn ui-shadow ui-corner-all ui-icon-forward ui-btn-icon-right">BACK</a>
+			<p><a href="#four" data-direction="reverse" data-transition="slide" class="ui-btn ui-shadow ui-corner-all ui-icon-carat-l ui-btn-icon-right">BACK</a>
 			</p>
 		</div>
 		<!-- footer -->
@@ -406,7 +394,7 @@
 			    <p class="ui-icon-arrow-r ui-btn-icon-right">Read more</p>
 			</div>
 		</div>
-		<p><a href="#five" data-direction="reverse" data-transition="slide" class="ui-btn ui-shadow ui-corner-all ui-icon-forward ui-btn-icon-right">BACK</a>
+		<p><a href="#five" data-direction="reverse" data-transition="slide" class="ui-btn ui-shadow ui-corner-all ui-icon-carat-l ui-btn-icon-right">BACK</a>
 		</p>
 		<!-- footer -->
 		<div data-role="footer">
