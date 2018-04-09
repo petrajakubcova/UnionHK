@@ -304,12 +304,12 @@ h2 {
 }
 .boxes {
     background-color: #edece6;
-    width: 45%;
+    width: 42%;
     height: 80px;
     float: left;
     position: relative;
     text-align: center;
-    border-color: #292d40;
+    border-color: #1f9de06b;
     border-style: solid;
     margin: 1.5%;
 }

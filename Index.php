@@ -35,6 +35,7 @@
 	<div data-role="page" id="one">
 		<!-- header -->
 		<div data-role="header">
+			<img src="images/hk-logo.png" alt="the initials H and K which make up the HK logo" style="width: 50px; float: right;">
 			<h1>Union HK</h1>
 		</div>
 		<!-- content -->
@@ -51,7 +52,7 @@
 			</form>
 			<p><a href="#four" data-transition="slide" id="log-in" class="ui-btn ui-shadow ui-corner-all">Log In</a>
 			</p>
-			<p><a href="#two" id="sign-up" class="ui-btn ui-shadow ui-corner-all">Sign Up</a>
+			<p><a href="#two" data-transition="slide" id="sign-up" class="ui-btn ui-shadow ui-corner-all">Sign Up</a>
 			</p>
 		</div>
 
