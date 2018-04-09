@@ -31,25 +31,6 @@
 </head>
 
 <body>
-	<!-- Page ZERO -->
-	<div data-role="page" id="zero" data-theme="a">
-		<!-- header -->
-		<div data-role="header">
-		    <img src="images/hk-logo.png" alt="the initials H and K which make up the HK logo" style="width: 50px; float: right;">
-			<h1>Union HK</h1>
-		</div>
-		<!-- content -->
-		<div data-role="main" class="ui-content">
-			<h2>LønTjek med HK</h2>
-			<img src="images/calculator.jpg" alt="picture of calculator" style="width: 370px;">
-			<p><a href="#one" data-transition="slide" class="ui-btn ui-shadow ui-corner-all">START</a>
-			</p>
-		</div>
-		<!-- footer -->
-		<div data-role="footer">
-			<h4>Page Footer</h4>
-		</div>
-	</div>
 	<!-- Page ONE -->
 	<div data-role="page" id="one">
 		<!-- header -->
@@ -60,6 +41,8 @@
 		<!-- content -->
 		<div data-role="main" class="ui-content">
 			<h2>Log In</h2>
+			<!-- Picture -->
+			<img src="images/calculator.jpg" alt="picture of calculator" style="width: 370px;">
 			<!-------------- First page main content from https://www.formget.com/jquery-mobile-form/ ----------->
 			<form method="post" action="#pageone" data-ajax="false">
 				<label for="name">Username : </label>
@@ -67,9 +50,30 @@
 				<label for="password">Password: </label>
 				<input type="password" id="password" name="password" placeholder="Password"/>
 			</form>
-			<p><a href="#three" data-transition="slide" id="log-in" class="ui-btn ui-shadow ui-corner-all ui-icon-forward ui-btn-icon-right">Log In</a>
+			<p><a href="#four" data-transition="slide" id="log-in" class="ui-btn ui-shadow ui-corner-all ui-icon-forward ui-btn-icon-right">Log In</a>
 			</p>
-			<form>
+			<div class="signuplink">
+			<p><a href="#two">Sign Up</a></p>
+            </div>
+		    </div>
+
+		<!-- footer -->
+		<div data-role="footer">
+			<h4><a href="#five" id="footer-link">More information from HK</a></h4>
+		</div>
+	</div>
+	<!-- end of Page ONE-->
+
+	<!-- Page TWO -->
+	<div data-role="page" id="two">
+		<!-- header -->
+		<div data-role="header">
+			<img src="images/hk-logo.png" alt="the initials H and K which make up the HK logo" style="width: 50px; float: right;">
+			<h1>Union HK</h1>
+		</div>
+		<!-- content -->
+		<div data-role="main" class="ui-content">
+		<form>
 				<h2>Create a new account</h2>
 				<fieldset data-role="controlgroup">
 					<label for="name">Username : <span>*</span></label>
@@ -223,21 +227,20 @@
 						<input type="radio" name="gender" id="female" value="female">
 					</fieldset>
 
-					<p><a href="#two" data-transition="slide" id="sign-up" class="ui-btn ui-shadow ui-corner-all ui-icon-forward ui-btn-icon-right">Sign Up</a>
-					</p>
+					<p><a href="#three" data-transition="slide" class="ui-btn ui-shadow ui-corner-all ui-icon-forward ui-btn-icon-right">NEXT</a>
+			        </p>
 				</fieldset>
 			</form>
 		</div>
-
 		<!-- footer -->
 		<div data-role="footer">
-			<h4><a href="#five" id="footer-link">More information from HK</a></h4>
+			<h4>Page Footer</h4>
 		</div>
 	</div>
-	<!-- end of Page ONE-->
 
-	<!-- Page TWO -->
-	<div data-role="page" id="two">
+
+	<!-- Page THREE -->
+	<div data-role="page" id="three">
 		<!-- header -->
 		<div data-role="header">
 			<img src="images/hk-logo.png" alt="the initials H and K which make up the HK logo" style="width: 50px; float: right;">
@@ -245,7 +248,7 @@
 		</div>
 		<!-- content -->
 		<div data-role="main" class="ui-content">
-			<h2>Pay Slip Information</h2>
+		<h2>Pay Slip Information</h2>
 			<div data-role="fieldcontain">
 				<div>
 					<!-- do we need to change any of these input types to numbers?-->
@@ -277,43 +280,7 @@
 					<input type="text" name="name" id="name" value=""/>
 				</div>
 			</div>
-			<p><a href="#three" data-transition="slide" class="ui-btn ui-shadow ui-corner-all ui-icon-forward ui-btn-icon-right">NEXT</a>
-			</p>
-			<p><a href="#one" data-direction="reverse" data-transition="slide" class="ui-btn ui-shadow ui-corner-all ui-icon-forward ui-btn-icon-right">BACK</a>
-			</p>
-		</div>
-		<!-- footer -->
-		<div data-role="footer">
-			<h4>Page Footer</h4>
-		</div>
-	</div>
-
-
-	<!-- Page THREE -->
-	<div data-role="page" id="three">
-		<!-- header -->
-		<div data-role="header">
-			<img src="images/hk-logo.png" alt="the initials H and K which make up the HK logo" style="width: 50px; float: right;">
-			<h1>Union HK</h1>
-		</div>
-		<!-- content -->
-		<div data-role="main" class="ui-content">
-			<h2>Salary Calculator</h2>
-			<div data-role="fieldcontain">
-				<div>
-					<label for="name">Job Role:</label>
-					<input type="text" name="name" id="name" value=""/>
-					<label for="name">Hourly wage:</label>
-					<input type="text" name="name" id="name" value=""/>
-					<label for="name">Total hours:</label>
-					<!-- changed input type to number for hours calculator-->
-					<input type="number" name="name" id="name" value=""/>
-					<label for="name">Supplementary hours:</label>
-					<!-- changed input type to number for hours calculator-->
-					<input type="number" name="name" id="name" value=""/>
-				</div>
-			</div>
-			<p><a href="#four" class="ui-btn ui-shadow ui-corner-all ui-icon-forward ui-btn-icon-right">CALCULATE</a>
+			<p><a href="#four" data-transition="slide" class="ui-btn ui-shadow ui-corner-all ui-icon-forward ui-btn-icon-right">NEXT</a>
 			</p>
 			<p><a href="#two" data-direction="reverse" data-transition="slide" class="ui-btn ui-shadow ui-corner-all ui-icon-forward ui-btn-icon-right">BACK</a>
 			</p>
@@ -367,9 +334,52 @@
 			<h4>Page Footer</h4>
 		</div>
 	</div>
-
+    
 	<!-- Page FIVE -->
 	<div data-role="page" id="five">
+		<!-- header -->
+		<div data-role="header">
+			<img src="images/hk-logo.png" alt="the initials H and K which make up the HK logo" style="width: 50px; float: right;">
+			<h1>Union HK</h1>
+		</div>
+		<!-- content -->
+		<div data-role="main" class="ui-content">
+			<h2>Salary Calculator</h2>
+			<div data-role="fieldcontain">
+				<div>
+					<label for="name">Job Role:</label>
+					<input type="text" name="name" id="name" value=""/>
+					<label for="name">Hourly wage:</label>
+					<input type="text" name="name" id="name" value=""/>
+					<label for="name">Total hours:</label>
+					<!-- changed input type to number for hours calculator-->
+					<input type="number" name="name" id="name" value=""/>
+					<label for="name">Supplementary hours:</label>
+					<!-- changed input type to number for hours calculator-->
+					<input type="number" name="name" id="name" value=""/>
+					</div>
+			</div>
+			<div data-role="fieldcontain">
+				<div>
+					<label for="name">Salary before tax:</label>
+					<input type="text" name="name" id="name" value=""/>
+					<label for="name">Salary after tax:</label>
+					<input type="text" name="name" id="name" value=""/>
+				</div>
+			</div>
+			
+			<p><a href="#six" data-transition="slide" class="ui-btn ui-shadow ui-corner-all ui-icon-forward ui-btn-icon-right">NEXT</a>
+			</p>
+			<p><a href="#four" data-direction="reverse" data-transition="slide" class="ui-btn ui-shadow ui-corner-all ui-icon-forward ui-btn-icon-right">BACK</a>
+			</p>
+		</div>
+		<!-- footer -->
+		<div data-role="footer">
+			<h4>Page Footer</h4>
+		</div>
+	</div>
+	<!-- Page SIX -->
+	<div data-role="page" id="six">
 		<!-- header -->
 		<div data-role="header">
 			<img src="images/hk-logo.png" alt="the initials H and K which make up the HK logo" style="width: 50px; float: right;">
@@ -396,7 +406,7 @@
 			    <p class="ui-icon-arrow-r ui-btn-icon-right">Read more</p>
 			</div>
 		</div>
-		<p><a href="#four" data-direction="reverse" data-transition="slide" class="ui-btn ui-shadow ui-corner-all ui-icon-forward ui-btn-icon-right">BACK</a>
+		<p><a href="#five" data-direction="reverse" data-transition="slide" class="ui-btn ui-shadow ui-corner-all ui-icon-forward ui-btn-icon-right">BACK</a>
 		</p>
 		<!-- footer -->
 		<div data-role="footer">

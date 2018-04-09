@@ -295,6 +295,9 @@ legend, .ui-input-text input, .ui-input-search input {
     outline-style: auto;
 }
 /*Styling of boxes on the fourth page -----------------------------------------------------------------------------------------------------------*/
+.signuplink {
+    padding-left: 40%;
+}
 h2 {
     position: relative;
     text-align: center;
